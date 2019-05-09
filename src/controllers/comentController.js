@@ -7,7 +7,7 @@ class comentController {
 			return res.json(coment); // Comentários ainda com relacionamento estático direto do mongo
 		} catch (error) {
 			if (error) console.log(error);
-			return res.status(404).send({ error: "Canot create the commentary" });
+			return res.status(404).send({ error: "Cannot create the commentary" });
 		}
 	}
 }
