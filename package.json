@@ -1,0 +1,14 @@
+{
+  "name": "backend-scienceComics",
+  "version": "1.0.0",
+  "description": "backend of a static blog post",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.6"
+  }
+}
