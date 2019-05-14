@@ -13,7 +13,7 @@ const Post = new mongoose.Schema(
 			type: String,
 			required: true
 		},
-		coments: [{ type: mongoose.Schema.Types.String, ref: "Coments" }]
+		comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "Comments" }]
 	},
 	{
 		timestamps: true

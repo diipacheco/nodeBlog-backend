@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const Coment = new mongoose.Schema(
+const Commentary = new mongoose.Schema(
 	{
 		author: {
 			type: String,
@@ -16,4 +16,4 @@ const Coment = new mongoose.Schema(
 	}
 );
 
-module.exports = mongoose.model("Coment", Coment);
+module.exports = mongoose.model("Commentary", Commentary);
